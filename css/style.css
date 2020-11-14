@@ -18,6 +18,8 @@ body{
 
 .input_value_i{
 	margin-bottom: 15px;
+	display: block;
+	text-align: center;
 }
 
 .container{
