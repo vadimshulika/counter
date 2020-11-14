@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Counter</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="offset-xl-4"></div>
+            <div class="col-xl-4">
+                <div class="output">
+                    <p id="out"></p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="offset-xl-4"></div>
+            <div class="col-xl-4">
+                <input type="radio" class="counter__radio_1" id="radio_1" name="index" value="1" checked />
+                <label>1x</label>
+                <input type="radio" class="counter__radio_2" id="radio_2" name="index" value="2" />
+                <label>2x</label>
+                <input type="radio" class="counter__radio_3" id="radio_3" name="index" value="3" />
+                <label>3x</label>
+                <input type="radio" class="counter__radio_5" id="radio_5" name="index" value="5" />
+                <label>5x</label>
+                <input type="radio" class="counter__radio_10" id="radio_10" name="index" value="10" />
+                <label>10x</label>
+                <input type="radio" class="counter__radio_15" id="radio_15" name="index" value="15" />
+                <label>15x</label>
+                <input type="radio" class="counter__radio_15" id="radio_other" name="index" value="" />
+                <label>другое</label>
+                <input class = "input_value_i" type = "text" placeholder="Ввести значение x"/>
+                <button type="submit" class="counter__btn add" onclick="i_index(); counter_add()">Прибавить</button>
+                <button type="submit" class="counter__btn remove" onclick="i_index(); counter_remove()">Сброс</button>
+                <button type="submit" class="counter__btn subtract" onclick="i_index(); counter_subtract()">Отнять</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/js_file.js" type="text/javascript"></script>
+</body>
+
+</html>
