@@ -1,0 +1,25 @@
+body{
+  	text-align: center;
+  	font-size: 26px;
+}
+
+.output{
+	text-align: center;
+	padding: 25px;
+  font-size: 64px;
+  background-color: red;
+  color: white;
+  margin-top: 100px;
+}
+
+#out{
+	margin: 0px;
+}
+
+.input_value_i{
+	margin-bottom: 15px;
+}
+
+.container{
+  	text-align: center;
+}
